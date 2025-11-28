@@ -1,0 +1,367 @@
+body {
+    background-color: #000005;
+    height: 100%;
+    margin: 0%
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 10% 20% 20% 20% 10% 10%;
+    grid-template-rows: 10% 10% 20% 20% 20% 20%;
+}
+
+#titel {
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.flex-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1.6%;
+    margin-right: 38%;
+}
+
+.flex-container-search {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 20%;
+    margin-top: -2%;
+}
+
+.flex-container-contact {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+#home {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+#home:hover {
+    background-color: pink;
+}
+
+#popular-videos {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+#popular-videos:hover {
+    background-color: pink;
+}
+
+#contact {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+
+}
+
+#contact:hover {
+    background-color: pink;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#recentVideos {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2em;
+    grid-column: 3;
+    margin-top: 20%;
+}
+
+
+
+
+.grid-container-videos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    grid-column: 3;
+    grid-row: 3;
+    width: 300%;
+}
+
+.grid-videos {
+    width: 100%;
+
+}
+
+#popularVideosPage {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2em;
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 16px;
+}
+
+
+.grid-container-videos-popular {
+    display: grid;
+    gap: 10px;
+    grid-column: 3;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.grid-container-videos-popular-text {
+    display: grid;
+    color: pink;
+    font-size: x-large;
+    font-family: fantasy;
+    gap: 10px;
+    grid-column: 4;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 45px;
+    padding-left: 60px;
+}
+
+#contactPage {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 200%;
+    padding-bottom: 2%;
+}
+
+#youtubelink {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 100%;
+    padding-bottom: 2%;
+}
+
+#emaillink {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+#phonelink {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+#sendRequest {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+#form-name {
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 100%;
+    
+}
+
+a:hover {
+    color: purple;
+}
+
+.grid-container-watchpage {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    grid-column: 3;
+    grid-row: 2;
+    width: 300%;
+    margin-left: 20.1%;
+    margin-top: 2%;
+}
+
+.watch-page-image {
+    width: 175px;
+    height: auto;
+    grid-row: 3;
+    grid-column: 1;
+    border-radius: 15px;
+}
+
+.watch-page-titel {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    grid-row: 3;
+    grid-column: 1;
+    margin-left: 180px;
+}
+
+.large-input {
+    width: 22%;
+    height: 40px;
+    font-size: 100%;
+}
+
+footer {
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+input[type=text] {
+    background-color: pink;
+    color: black;
+    transition: width 0.4s ease-in-out;
+    border-radius: 15px;
+  }
+
+  input[type=text]:focus {
+    width: 50%;
+  }
+
+  input[type=submit]{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+  }
+
+ 
+ 
+
+  @media (max-width: 1024px){
+  .grid-container-videos{display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 15px;
+    grid-column: 1;
+    grid-row: 2;
+    width: 950%;
+
+  }
+ .flex-container-search {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 0px;
+    margin-top: -35px;
+}
+/*.grid-container-videos-popular {
+    display: grid;
+    gap: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    width: 300px;
+    margin-top: 10%;
+}
+.grid-container-videos-popular-text {
+    display: grid;
+    color: pink;
+    font-size: 103.5%;
+    font-family: fantasy;
+    gap: 10px;
+    grid-column: 4;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 60%
+} */
+
+  }
+
+  @media (max-width: 768px){
+    .grid-container-videos{display: grid;
+      grid-template-columns: 100%;
+      padding: 20px;
+      margin-top: 80%;
+      gap: 10px;
+      grid-column: 1;
+      grid-row: 1;
+      width: 920%;
+  
+    }
+    .flex-container-search {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-top: -25px;
+    }
+    .grid-container-videos-popular {
+        display: grid;
+        gap: 10px;
+        grid-column: 2;
+        grid-row: 2;
+        width: 200px;
+        margin-top: 15%;
+    }
+    .grid-container-videos-popular-text {
+        display: grid;
+        color: pink;
+        font-size: 72%;
+        font-family: fantasy;
+        grid-column: 4;
+        grid-row: 2;
+        width: 100%;
+        margin-top: 10%;
+        padding-left: 60px;
+    }
+
+    #titel {
+        color: pink;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    .flex-container {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 1.6%;
+        margin-right: 38%;
+        
+    }
+    
+  
+    }
+
+
+ 
